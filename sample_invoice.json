@@ -3,170 +3,40 @@
   "file_name": "sample_invoice.pdf",
   "pages": 1,
   "header_fields": {
-    "invoice_number": "XX001",
+    "invoice_number": "Date",
     "invoice_date": null,
-    "due_date": null
+    "due_date": "10/08/2025",
+    "billed_to": "Olivia Wilson 123 Anywhere St., Any City"
   },
   "line_items": [
     {
-      "": "",
-      "INVOICE": "INVOICE # XX001"
+      "description": "Leather Messenger Bag  $50 $50",
+      "quantity": "1",
+      "unit_price": "$150",
+      "amount": "$150"
     },
     {
-      "": "",
-      "INVOICE": "DATE:"
+      "description": "Wool Blazer",
+      "quantity": "2",
+      "unit_price": "$175",
+      "amount": "$350"
     },
     {
-      "": "",
-      "INVOICE": ""
+      "description": "Silk Scarf",
+      "quantity": "1",
+      "unit_price": "$80",
+      "amount": "$80"
     },
     {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "For:",
-      "INVOICE": ""
-    },
-    {
-      "": "SAFVIC",
-      "INVOICE": ""
-    },
-    {
-      "": "Dates:",
-      "INVOICE": ""
-    },
-    {
-      "": "Location:",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "BE I",
-      "INVOICE": "N-KIND MATCH"
-    },
-    {
-      "": "D",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": "$50.00"
-    },
-    {
-      "": "",
-      "INVOICE": "$50.00"
-    },
-    {
-      "": "",
-      "INVOICE": "$200.00"
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": "$300.00"
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "nd to the ad",
-      "INVOICE": "dress at the top of"
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "",
-      "INVOICE": ""
-    },
-    {
-      "": "er to be rei",
-      "INVOICE": "mbursed for mile"
-    },
-    {
-      "": "",
-      "INVOICE": ""
+      "description": "Blazer",
+      "quantity": "1",
+      "unit_price": "$250",
+      "amount": "$250"
     }
   ],
   "totals": {
-    "total:": "$300.00",
-    "total": "If"
+    "subtotal": "$580",
+    "tax": "$29",
+    "total": "$859"
   }
 }
